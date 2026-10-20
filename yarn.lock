@@ -4235,7 +4235,7 @@ __metadata:
     react-native-error-boundary: ^3.1.0
     react-native-gesture-handler: 3.1.0
     react-native-keyboard-controller: ^1.22.3
-    react-native-marked: ^8.1.1
+    react-native-marked: ^8.3.2
     react-native-nitro-device-info: ^1.8.1
     react-native-nitro-http-server: ^1.9.2
     react-native-nitro-modules: ^0.36.5
@@ -9256,12 +9256,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:18.0.6":
-  version: 18.0.6
-  resolution: "marked@npm:18.0.6"
+"marked@npm:18.0.14":
+  version: 18.0.14
+  resolution: "marked@npm:18.0.14"
   bin:
     marked: bin/marked.js
-  checksum: ec0b76071e72c9123bfe803f94471398317b6aaf9424d784836f2c693dcccd23acee0f3f89c1101c9aea170fc72705e308caedfad81c546348e21cba0dc631a2
+  checksum: e3288d705abc873c929d176b4cdeb5f55c456b4fabb051582beebe1efa14fccbea44ee63d33a27abcb6f2cdc3b12259ede1d85115aa385c0d48fcd7afe0299ce
   languageName: node
   linkType: hard
 
@@ -10773,41 +10773,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-marked@npm:8.1.1":
-  version: 8.1.1
-  resolution: "react-native-marked@npm:8.1.1"
+"react-native-marked@npm:^8.3.2":
+  version: 8.3.2
+  resolution: "react-native-marked@npm:8.3.2"
   dependencies:
     "@jsamr/counter-style": 2.0.2
     "@jsamr/react-native-li": 2.3.1
     github-slugger: 2.0.0
     html-entities: 2.6.0
-    marked: 18.0.6
+    marked: 18.0.14
     react-native-reanimated-table: 0.0.2
-    svg-parser: 2.0.4
+    svg-parser: 2.1.0
   peerDependencies:
     react: ">=16.8.6"
     react-native: ">=0.76.0"
     react-native-svg: ">=12.3.0"
-  checksum: a74bdec98efdde1a6a1a24bc0451df8b1450409baf066f6dfd622696c5b00eeb04878ddbc88c5afa6d34375121a6796dfa0b33589b4056d91011c3b340a0364a
-  languageName: node
-  linkType: hard
-
-"react-native-marked@patch:react-native-marked@npm%3A8.1.1#./.yarn/patches/react-native-marked-npm-8.1.0-775c67adf8.patch::locator=aniflix%40workspace%3A.":
-  version: 8.1.1
-  resolution: "react-native-marked@patch:react-native-marked@npm%3A8.1.1#./.yarn/patches/react-native-marked-npm-8.1.0-775c67adf8.patch::version=8.1.1&hash=992d4f&locator=aniflix%40workspace%3A."
-  dependencies:
-    "@jsamr/counter-style": 2.0.2
-    "@jsamr/react-native-li": 2.3.1
-    github-slugger: 2.0.0
-    html-entities: 2.6.0
-    marked: 18.0.6
-    react-native-reanimated-table: 0.0.2
-    svg-parser: 2.0.4
-  peerDependencies:
-    react: ">=16.8.6"
-    react-native: ">=0.76.0"
-    react-native-svg: ">=12.3.0"
-  checksum: c2206bccff0a57c628ef5aaedadb0f79913e3ddb48c36d5620b5fb226b440f70200fc74ff045dd8644f344ba7ddaa8f86dfc29d76599072c454849e82e64fecf
+  checksum: cf93ebcdd0efb12290f36b4fd4c90b58a654ec75123c81dd449c1d4ae2d90434d8412d2980f8e2f1a571eb1b139742ce963a9b9f4c03501f5723edbdabceb4ab
   languageName: node
   linkType: hard
 
@@ -12162,10 +12143,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svg-parser@npm:2.0.4":
-  version: 2.0.4
-  resolution: "svg-parser@npm:2.0.4"
-  checksum: b3de6653048212f2ae7afe4a423e04a76ec6d2d06e1bf7eacc618a7c5f7df7faa5105561c57b94579ec831fbbdbf5f190ba56a9205ff39ed13eabdf8ab086ddf
+"svg-parser@npm:2.1.0":
+  version: 2.1.0
+  resolution: "svg-parser@npm:2.1.0"
+  checksum: 60e679813c4a7d08d4e905b790d1e4f7998071476f85eafb3e10fb535e91ce72ac0a00224609d5f6b9ee61c7fd0d91539adc3b64f7eb8ae24f022c4b69e61c83
   languageName: node
   linkType: hard
 
