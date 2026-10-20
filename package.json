@@ -47,7 +47,7 @@
     "react-native-animateable-text": "^0.19.3",
     "react-native-blob-util": "0.24.7",
     "react-native-bottom-tabs": "^1.4.0",
-    "react-native-edge-to-edge": "^1.8.1",
+    "react-native-edge-to-edge": "^1.8.2",
     "react-native-error-boundary": "^3.1.0",
     "react-native-gesture-handler": "3.1.0",
     "react-native-keyboard-controller": "^1.22.3",
