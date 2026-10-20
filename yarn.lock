@@ -2600,13 +2600,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@preeternal/react-native-cookie-manager@npm:^6.4.0":
-  version: 6.4.0
-  resolution: "@preeternal/react-native-cookie-manager@npm:6.4.0"
+"@preeternal/react-native-cookie-manager@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@preeternal/react-native-cookie-manager@npm:7.0.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 48db9d86a2a4bb22866c2881c388479e85924e669b8cf1cb5db14759f6fe4d38a2372273b2e3f70006bbac609e1bb1271f28fb3b567c0d322a6fabadbfd8163d
+  checksum: 2a2fbcba963431abe064fc47e293d71ac7af7757e62ede135cca172fde9ccb4d9a0bd47f8739180f9e7def88c95b4e0ea546d30c7d8e6f0ee31ff5851779e7f9
   languageName: node
   linkType: hard
 
@@ -4179,7 +4179,7 @@ __metadata:
     "@bottom-tabs/react-navigation": ^1.4.0
     "@expo/ui": ~57.0.9
     "@legendapp/list": 2.0.19
-    "@preeternal/react-native-cookie-manager": ^6.4.0
+    "@preeternal/react-native-cookie-manager": ^7.0.0
     "@react-native-community/cli": ^20.2.0
     "@react-native-community/cli-platform-android": ^20.2.0
     "@react-native-vector-icons/entypo": ^13.1.2
