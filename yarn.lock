@@ -4231,7 +4231,7 @@ __metadata:
     react-native-animateable-text: ^0.19.3
     react-native-blob-util: 0.24.7
     react-native-bottom-tabs: ^1.4.0
-    react-native-edge-to-edge: ^1.8.1
+    react-native-edge-to-edge: ^1.8.2
     react-native-error-boundary: ^3.1.0
     react-native-gesture-handler: 3.1.0
     react-native-keyboard-controller: ^1.22.3
@@ -10716,13 +10716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-edge-to-edge@npm:^1.8.1":
-  version: 1.8.1
-  resolution: "react-native-edge-to-edge@npm:1.8.1"
+"react-native-edge-to-edge@npm:^1.8.2":
+  version: 1.8.2
+  resolution: "react-native-edge-to-edge@npm:1.8.2"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 712081dffc84c8c65cae99732b3ecb7cae2c4dfa49c18855a317a27370be96f87397f628c8d174a8819a383eb83a5011e6785a8040aaedb15b14baf1083ba882
+  checksum: abd1fccf32006119731e7ea0a883c82c1fec88c7ee90604dbb7347828621170a355e947d906aa8700347bd084fac82f9e1b503c2071b2bb20ea78073d6ab0c58
   languageName: node
   linkType: hard
 
