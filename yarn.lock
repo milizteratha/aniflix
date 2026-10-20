@@ -3113,19 +3113,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-vector-icons/entypo@npm:^13.1.2":
-  version: 13.1.2
-  resolution: "@react-native-vector-icons/entypo@npm:13.1.2"
+"@react-native-vector-icons/common@npm:^13.0.4":
+  version: 13.0.4
+  resolution: "@react-native-vector-icons/common@npm:13.0.4"
   dependencies:
-    "@react-native-vector-icons/common": ^13.0.1
+    find-up: ^8.0.0
+    picocolors: ^1.1.1
+    plist: ^3.1.0
   peerDependencies:
-    "@expo/config-plugins": ">=10.0.0"
+    "@react-native-vector-icons/get-image": ^13.0.2
+    "@react-native/assets-registry": "*"
+    expo-font: "*"
     react: "*"
     react-native: "*"
   peerDependenciesMeta:
-    "@expo/config-plugins":
+    "@react-native-vector-icons/get-image":
       optional: true
-  checksum: 76fab73c6db2d111a405686c96300d334f57d1786c722ad673c95c09e48b292aab3a486e2182b2854dc626c2e40be3c198422a228518326267f954e7f44adc87
+    "@react-native/assets-registry":
+      optional: true
+    expo-font:
+      optional: true
+  bin:
+    rnvi-update-plist: lib/commonjs/scripts/updatePlist.js
+  checksum: 33beda9052eb1c29058181b992bbcd5b247b9d073659261d1bc8bc0959a830e956403e7c9a57e4010e64eec008aa41a4c9dddfcd435c743a847f57c340ab102d
+  languageName: node
+  linkType: hard
+
+"@react-native-vector-icons/entypo@npm:^13.1.5":
+  version: 13.1.5
+  resolution: "@react-native-vector-icons/entypo@npm:13.1.5"
+  dependencies:
+    "@react-native-vector-icons/common": ^13.0.4
+  peerDependencies:
+    expo: "*"
+    react: "*"
+    react-native: "*"
+  peerDependenciesMeta:
+    expo:
+      optional: true
+  checksum: 800aa5c355ce7f9901924ef81a65e8035556147abc280f24d4588a9f1f4afd997f6ca6f55c6018821130bce75809defa0a8b0ae0826f521d68975501f67834e2
   languageName: node
   linkType: hard
 
@@ -4182,7 +4208,7 @@ __metadata:
     "@preeternal/react-native-cookie-manager": ^6.4.0
     "@react-native-community/cli": ^20.2.0
     "@react-native-community/cli-platform-android": ^20.2.0
-    "@react-native-vector-icons/entypo": ^13.1.2
+    "@react-native-vector-icons/entypo": ^13.1.5
     "@react-native-vector-icons/fontawesome": ^13.1.2
     "@react-native-vector-icons/fontawesome5": ^13.1.2
     "@react-native-vector-icons/fontisto": ^13.1.2
